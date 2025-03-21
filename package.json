@@ -1,6 +1,6 @@
 {
-  "name": "@electron/rebuild",
-  "version": "0.0.0-development",
+  "name": "@exodus/electron-rebuild",
+  "version": "1.0.0",
   "description": "Electron supporting package to rebuild native node modules against the currently installed electron",
   "main": "lib/main.js",
   "typings": "lib/main.d.ts",
@@ -45,7 +45,7 @@
     "provenance": true
   },
   "dependencies": {
-    "@electron/node-gyp": "https://github.com/electron/node-gyp#06b29aafb7708acef8b3669835c8a7857ebc92d2",
+    "node-gyp": "3.8.0",
     "@malept/cross-spawn-promise": "^2.0.0",
     "chalk": "^4.0.0",
     "debug": "^4.1.1",
